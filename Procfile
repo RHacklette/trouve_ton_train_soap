@@ -1,1 +1,1 @@
-web: ladon-2.7-ctl testserve SOAPServer.py -p 80
+worker: ladon-2.7-ctl testserve SOAPServer.py -p 80
