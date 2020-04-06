@@ -1,1 +1,1 @@
-/home/val/.local/bin/ladon-3.7-ctl testserve SOAPServer.py -p 8080
+/home/val/.local/bin/ladon-3.7-ctl testserve SOAPServer.py -p 80
