@@ -1,15 +1,5 @@
-# -*- coding: utf-8 -*-
-from zeep import Client
-from flask import Flask, request, render_template
+import os
 
-#import keyring
-import requests
-from datetime import datetime, date, time
-    
-app = Flask(__name__)
+cmd="/home/$USER/.local/bin/ladon-3.7-ctl testserve SOAPServer.py -p 8080"
 
-
-@app.route('/')
-def index():
-    return "ok"
-
+os.system(cmd)
