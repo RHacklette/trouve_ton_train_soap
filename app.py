@@ -13,5 +13,5 @@ app = Flask(__name__)
 def index():
     return "ok"
 
-cmd="/home/$USER/.local/bin/ladon-3.7-ctl testserve SOAPServer.py -p 80"
-os.system(cmd)
+#cmd="/home/$USER/.local/bin/ladon-3.7-ctl testserve SOAPServer.py -p 80"
+#os.system(cmd)
